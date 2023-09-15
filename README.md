@@ -1,10 +1,31 @@
-# Deploy a Python (Flask) web app to Azure App Service - Sample Application
+# AEJG Data Chat Bot
 
-This is the sample Flask application for the Azure Quickstart [Deploy a Python (Django or Flask) web app to Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python). For instructions on how to create the Azure resources and deploy the application to Azure, refer to the Quickstart article.
+Chat with Azure OpenAI to analysis AEJG SQL data
 
-Sample applications are available for the other frameworks here:
+### Introduction
 
-* Django [https://github.com/Azure-Samples/msdocs-python-django-webapp-quickstart](https://github.com/Azure-Samples/msdocs-python-django-webapp-quickstart)
-* FastAPI [https://github.com/Azure-Samples/msdocs-python-fastapi-webapp-quickstart](https://github.com/Azure-Samples/msdocs-python-fastapi-webapp-quickstart)
+foobar
 
-If you need an Azure account, you can [create one for free](https://azure.microsoft.com/en-us/free/).
+![image](./res/nlp-sql.png)
+
+
+### Environment setup
+
+1. rename .env.example file to .env and fill in all required endpoints and keys
+2. install all required packages
+
+```
+pip install -r requirements.txt
+```
+
+3. run app
+
+```
+flask run
+```
+
+4. localhost default at [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+### Next steps
+ 1. Need better prompt to describe the data schema to openai
+ 2. Investigate [Langchain](https://github.com/langchain-ai/langchain)(?)
