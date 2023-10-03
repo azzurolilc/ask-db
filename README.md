@@ -1,6 +1,6 @@
 # AEJG Data Chat Bot
 
-Chat with Azure OpenAI to analysis AEJG SQL data
+Chat with Azure OpenAI to analysis (AEJG)[https://americanequity.org/index.html] SQL data
 
 ### Introduction
 
